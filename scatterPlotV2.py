@@ -15,6 +15,7 @@ imageFolder = 'Images'
 monthName = 'December'
 daysInMonth = 31
 
+#Check if the event and weather file have the same station and the same date(s)
 if eventFile.split('-')[1] == weatherFile.split('-')[1] and eventFile.split('-')[2] == weatherFile.split('-')[2]:
     pass
 else:
